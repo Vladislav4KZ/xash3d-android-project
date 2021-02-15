@@ -265,6 +265,7 @@ public class FWGSLib
 			if( decorView == null )
 				return;
 			if( keyboardVisible )
+				View decorView = getWindow().getDecorView();
 				decorView.setSystemUiVisibility(
 					View.SYSTEM_UI_FLAG_IMMERSIVE_STICKY
 					| View.SYSTEM_UI_FLAG_LAYOUT_STABLE
