@@ -267,7 +267,7 @@ public class FWGSLib
 			if( keyboardVisible )
 				decorView.setSystemUiVisibility(
 					0x00000100   // View.SYSTEM_UI_FLAG_LAYOUT_STABLE
-					| 0x00000200 // View.SYSTEM_UI_FLAG_LAYOUT_HIDE_NAVIGATION
+					| 0x00000002 // View.SYSTEM_UI_FLAG_LAYOUT_HIDE_NAVIGATION
 					| 0x00000400 // View.SYSTEM_UI_FLAG_LAYOUT_FULSCREEN
 					| 0x00000002 // View.SYSTEM_UI_FLAG_HIDE_NAVIGATION // hide nav bar
 					| 0x00000004 // View.SYSTEM_UI_FLAG_FULLSCREEN // hide status bar
