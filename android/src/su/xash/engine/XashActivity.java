@@ -149,7 +149,7 @@ public class XashActivity extends Activity {
 		
 		int flags = WindowManager.LayoutParams.FLAG_FULLSCREEN | 
 
-WindowManager.LayoutParams.FLAG_HIDE_NAVIGATION |
+WindowManager.LayoutParams.FLAG_TRANSLUCENT_NAVIGATION |
 			WindowManager.LayoutParams.FLAG_KEEP_SCREEN_ON | FLAG_NEEDS_MENU_KEY;
 		getWindow().setFlags( flags, flags );
 
