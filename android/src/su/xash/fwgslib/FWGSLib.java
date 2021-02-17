@@ -260,6 +260,15 @@ public class FWGSLib
 
 	static class Compat_19 extends Compat_9
 	{
+		
+		@Override
+		public void onWindowFocusChanged(boolean hasFocus) {
+    		super.onWindowFocusChanged(hasFocus);
+   		 if (hasFocus) {
+    		    applyImmersiveMode();
+  		  }
+		}
+		
 		public void applyImmersiveMode( boolean keyboardVisible, View decorView )
 		{
 			if( keyboardVisible )
