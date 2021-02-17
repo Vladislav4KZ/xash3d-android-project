@@ -1411,7 +1411,7 @@ class AndroidBug5497Workaround
 				XashActivity.keyboardVisible = false;
 			}
 			
-			FWGSLib.cmp.applyImmersiveMode( XashActivity.keyboardVisible, XashActivity.mDecorView );
+			FWGSLib.applyImmersiveMode( XashActivity.keyboardVisible, XashActivity.mDecorView );
 			
 			mChildOfContent.requestLayout();
 			XashActivity.mSingleton.enableNavbarMenu();
